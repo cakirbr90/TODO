@@ -9,6 +9,7 @@ Full-stack todo application: **Vue 3 + Node.js (Express) + PostgreSQL**, JWT aut
 ## Setup
 ```bash
 pnpm install
+cp .env.example .env                  # docker compose (optional, has defaults)
 cp apps/api/.env.example apps/api/.env      # fill in local values
 cp apps/web/.env.example apps/web/.env
 docker compose up -d db
