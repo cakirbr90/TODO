@@ -4,7 +4,7 @@ Agents pick the **first unchecked item** in the lowest open phase. One item = on
 
 ## Phase 0 — Setup
 - [x] **P0-1** pnpm monorepo (`apps/api`, `apps/web`, `packages/shared`), root tsconfig, ESLint, Prettier
-- [ ] **P0-2** `docker-compose.yml` with PostgreSQL 16 (+ `todo_test` DB), `.env.example` files
+- [x] **P0-2** `docker-compose.yml` with PostgreSQL 16 (+ `todo_test` DB), `.env.example` files
 - [ ] **P0-3** API skeleton: Express app factory, env config (Zod), pino logger, errorHandler, `/health`, Vitest
 - [ ] **P0-4** Prisma init + schema from [DATA_MODEL.md](DATA_MODEL.md) + first migration + seed (fake data)
 - [ ] **P0-5** Web skeleton: Vite + Vue 3 + TS + Pinia + Router + Vitest; styling choice documented in ADR
